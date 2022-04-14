@@ -186,10 +186,10 @@ if(session.getAttribute("phone") == null) {
 
 	<!-- **** Google Maps **** -->
 	<div class="contact-maps mb-80 wow fadeInUp" data-wow-delay="200ms">
-		
+
 		<!-- Maps Iframe -->
 		<iframe id="lnctmap"
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.7709626225687!2d77.52250984991842!3d23.251420213497838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c403a9dd0c5d3%3A0xda9256bd4f4eb44b!2sLakshmi+Narain+College+Of+Technology!5e0!3m2!1sen!2sin!4v1553115318459"
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.5942686963867!2d77.45703971536044!3d23.185003866054753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43e7ea7b0695%3A0x89867e292e8e0efd!2sDanish%20Nagar%2C%20Bagmugaliya%2C%20Bhopal%2C%20Madhya%20Pradesh%20462026!5e0!3m2!1sen!2sin!4v1649942028063!5m2!1sen!2sin"
 			width="600" height="450" frameborder="0" style="border: 0"
 			allowfullscreen></iframe>
 		<iframe id="sanjeetmap"
