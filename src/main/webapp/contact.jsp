@@ -216,15 +216,15 @@ if(session.getAttribute("phone") == null) {
 						data-wow-delay="200ms" onclick="lnctmapview()"
 						style="cursor: pointer;">
 						<br/>
-						<h4>LNCT</h4>
+						<h4>Swaraj Bhatnagar</h4>
 						<p>
-							Add: <span>Raisen Road, Bhopal</span>
+							Add: <span>Danish Nagar, Bhopal</span>
 						</p>
 						<p>
-							Email: <span>lnct@gmail.com</span>
+							Email: <span>swarajwednesday@gmail.com</span>
 						</p>
 						<p>
-							Phone: <span>7551234567</span>
+							Phone: <span>7000273946</span>
 						</p>
 					</div>
 				</div>
