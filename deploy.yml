@@ -1,0 +1,15 @@
+---
+- name: Pull docker image of the Calculator
+  hosts: all
+  tasks:
+    - name: pull App image
+      shell: docker pull swaraj1998/ridebuddies
+
+    - name: Pull MySQL MySQL
+        shell: docker pull swaraj1998/ridebuddies_db
+
+    - name: Run MySQL Container
+        shell: docker run --name mysqldb-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d swaraj1998/ridebuddies_db
+
+    - name: Run Application Container
+        shell: docker run -p 8082:8080 --name RideBuddies-container --link mysqldb-container swaraj1998/ridebuddies
