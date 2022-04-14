@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RideBuddies:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RideBuddies</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RideBuddies-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RideBuddies:war exploded" />
+    </root>
+  </artifact>
+</component>
