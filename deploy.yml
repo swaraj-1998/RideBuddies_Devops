@@ -5,8 +5,20 @@
     - name: pull App image
       shell: docker pull swaraj1998/ridebuddies
 
-    - name: MySQL Compose
-      shell: docker-compose -f docker-compose.yml up
+    - name: Pull MySQL MySQL
+      docker_container:
+        name: mysqldb-container
+        image: mysql:latest
+        volumes:
+          - "rideVolume:/var/lib/mysql"
+        restart: true
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: RideBuddies
+          MYSQL_USER: root
+          MYSQL_PASSWORD: root
+        ports:
+          - "3306:3306"
 
 #    - name: Pull MySQL MySQL
 #      shell: docker pull swaraj1998/ridebuddies_db
