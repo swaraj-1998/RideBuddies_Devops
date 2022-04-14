@@ -76,9 +76,7 @@ if(session.getAttribute("phone") == null) {
 							<img src="img/bg-img/31.jpg" alt="">
 						</div>
 						<h4>Our Company</h4>
-						<p>Our company is based in LNCT, founded by 4 members with a
-							vision of completing our minor project. We are B.E. students in a
-							private college.</p>
+						<p>The Company believes in being honest to others and being committed to work. Work like a slave , Live like a King</p>
 					</div>
 				</div>
 
