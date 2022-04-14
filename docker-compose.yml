@@ -1,0 +1,14 @@
+version: '2'
+services:
+  mysql:
+    container_name: mysqldb-container
+    restart: always
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_USER: 'root'
+      MYSQL_PASS: 'root'
+    volumes:
+      - rideVolume:/var/lib/mysql
+volumes:
+  rideVolume:
